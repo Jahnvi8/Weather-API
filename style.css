@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(32, 31, 31, 0.438), rgba(185, 194, 186, 0)), url('https://source.unsplash.com/1600x900/?nature,weather') no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.main {
+    background-color: rgb(240, 248, 255, 1);
+    border-radius: 5px;
+    color: transparent;
+    max-width: 50vh;
+    padding: 1rem 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 100px auto;
+    opacity: 0.4;
+}
+
+.main>* {
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.inputBox {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    color: #1b0d12;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.inputBox:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+.weatherBody {
+    display: none;
+    color: #1b0d12;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    /* background-color: rgb(240, 248, 255, 1); */
+    height: 50vh;
+}
+
+.location-details {
+    font-weight: 600;
+}
+
+.city {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 3px;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.min-max,
+.weather {
+    font-size: 20pt;
+    font-weight: 600;
+    padding: 20px;
+}
